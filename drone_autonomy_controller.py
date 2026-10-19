@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-"""B-Spline Autonomous Drone Demo for Gazebo.
-
-This reproduces the reference MuJoCo demo phases while retaining real Gazebo
-four-rotor physics: cubic Cox-de Boor trajectory generation, LiDAR obstacle
-risk classification, cascaded PID, physical wind disturbance/recovery, and
-telemetry/summary metrics.
-"""
+etry/summary metrics.
 import math, time, csv, threading, subprocess, sys
 from pathlib import Path
 import numpy as np
