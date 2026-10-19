@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-"""Cubic B-spline trajectory generator using Cox-de Boor recursion."""
 import numpy as np
 
 def open_uniform_knots(n_ctrl, degree=3):
