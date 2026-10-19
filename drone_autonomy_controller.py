@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-etry/summary metrics.
 import math, time, csv, threading, subprocess, sys
 from pathlib import Path
 import numpy as np
