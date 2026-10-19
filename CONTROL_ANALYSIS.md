@@ -1,4 +1,4 @@
-# Control-system analysis added to the v15 project
+# Control-system analysis
 
 The final project keeps Gazebo's multicopter motor/attitude controller as the inner loop and adds a transparent outer-loop position controller in `scripts/drone_autonomy_controller.py`.
 
