@@ -1,4 +1,4 @@
-# Gazebo Drone Project — PyBullet-equivalent final build
+# Gazebo Drone Project
 
 This is the Gazebo implementation of the uploaded PyBullet drone project. It keeps the v15 visual/weather environment and adds the missing algorithmic components from the PyBullet reference.
 
