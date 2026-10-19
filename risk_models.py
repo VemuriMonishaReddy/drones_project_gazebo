@@ -1,17 +1,4 @@
 #!/usr/bin/env python3
-"""PyBullet-equivalent probabilistic obstacle-risk stack for Gazebo.
-
-Implements the same feature/risk/decision pipeline as the reference project:
-  features = distance, closing speed, TTC, |roll|, |pitch|
-  Logistic regression risk classifier
-  Discrete Bayesian Network with Distance -> TTC <- ClosingSpeed,
-      Distance -> Risk, TTC -> Risk, Tilt -> Risk
-  expected-cost decision: CONTINUE / SLOW_DOWN / AVOID
-
-The control loop uses the fast empirical-Bayesian table so it does not require
-pgmpy at runtime. If pgmpy is installed, validate_models.py additionally fits
-an exact pgmpy BN using the same structure and BDeu estimator.
-"""
 import math
 import numpy as np
 
