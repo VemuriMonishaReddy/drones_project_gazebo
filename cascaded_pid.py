@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""Gazebo-side implementation of the reference cascaded PID mathematics.
-
-The final motor allocation remains Gazebo's MulticopterVelocityControl for robust
-simulation. This module computes the same position->velocity->acceleration->attitude
-references and attitude PID terms as the PyBullet controller, and uses the resulting
-reference to shape the commanded body velocity while logging every control term.
-"""
 import math
 import numpy as np
 G=9.81
