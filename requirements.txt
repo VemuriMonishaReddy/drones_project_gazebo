@@ -1,0 +1,6 @@
+numpy>=1.23
+matplotlib>=3.6
+pandas>=1.5
+# Optional exact reference validation:
+scikit-learn>=1.2
+pgmpy>=0.1.24
