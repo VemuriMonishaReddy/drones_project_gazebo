@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-"""PyBullet-equivalent point-mass obstacle benchmark using the SAME risk stack.
-This is an algorithm validation layer; the live flight uses the same risk controller.
-"""
 import csv,sys,math
 from pathlib import Path
 import numpy as np
